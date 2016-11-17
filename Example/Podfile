@@ -1,0 +1,11 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HudlLog_Example' do
+  pod 'HudlLog/Implementation', :path => '../'
+
+  target 'HudlLog_Tests' do
+    inherit! :search_paths
+  end
+end

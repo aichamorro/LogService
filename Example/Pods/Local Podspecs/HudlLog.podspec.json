@@ -1,0 +1,37 @@
+{
+  "name": "HudlLog",
+  "version": "0.1.0",
+  "summary": "A short description of HudlLog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/HudlLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alberto Chamorro": "alberto.chamorro@hudl.com"
+  },
+  "source": {
+    "git": "https://github.com/aichamorro/HudlLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "HudlLog/Classes/HudlLog/**/*"
+    },
+    {
+      "name": "Implementation",
+      "dependencies": {
+        "HudlLog/Core": [
+
+        ]
+      },
+      "source_files": "HudlLog/Classes/HudlLogImpl/**/*"
+    }
+  ]
+}

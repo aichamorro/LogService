@@ -1,0 +1,18 @@
+PODS:
+  - HudlLog/Core (0.1.0)
+  - HudlLog/Implementation (0.1.0):
+    - HudlLog/Core
+
+DEPENDENCIES:
+  - HudlLog/Implementation (from `../`)
+
+EXTERNAL SOURCES:
+  HudlLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HudlLog: 39df423e222eaf88afd207a3393910d14f5743da
+
+PODFILE CHECKSUM: 03b24da62674b8718cb586a0e28f8563807d2517
+
+COCOAPODS: 1.1.1

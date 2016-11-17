@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D5B1E1B3EB7F467DD088F7865DE3F71 /* HudlLogImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B27AB4390184ACDAF51F1A2482B3D /* HudlLogImpl.swift */; };
+		14B4267DFF5B9969C2E3C2038190DE96 /* Pods-HudlLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6839520E0034DCDF5027B56EE32A00 /* Pods-HudlLog_Example-dummy.m */; };
+		1A433C53450715D1E6619826FD01FC9A /* Pods-HudlLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8ADAB393C4B3622DB9FF126583902AC /* Pods-HudlLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		203F4884329167FBED2A8BFEE23F6535 /* HudlLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B93AC848E4EE7CD7E9CACFCC5F023A6A /* HudlLog-dummy.m */; };
+		305429C9E48B531B2ABCAE8C72B30718 /* HudlLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D0CE1BDDD3F0C22A795A84A377BF4F /* HudlLog.swift */; };
+		3F1200E5A3E18DEFAE54BC7BA806A8DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		71B7B9F862094EA81DE3BCF46298A5F0 /* HudlLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4431F1B29AE27AF9C6B3C5F8238CAFB1 /* HudlLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81802BDDC924D751FF9D2FD7A1452220 /* Pods-HudlLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6A38B44BBA80B730145E4F7D8DCB2A /* Pods-HudlLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87E173EC94FD55392043C6E0029E26A1 /* Pods-HudlLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA72C9CEBEBE609DE9D68818BC7495B5 /* Pods-HudlLog_Tests-dummy.m */; };
+		8E6EC0A8D77E0225BA37D3B6FECE9EC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9E02BA305495179EE262D2B01D62563A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA82C08B4821B24D847ADE36A617CDF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC375FFBEDB16FEBF2E5542DDC458309;
+			remoteInfo = HudlLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		081E8CECFC512DAFFD3D4F0DDA08E5E4 /* HudlLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HudlLog.modulemap; sourceTree = "<group>"; };
+		13450BF850034DD311D3FDD14C774A3E /* Pods-HudlLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HudlLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1CC7F69C0DE89DAA50C069CE68B0AFC8 /* Pods-HudlLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HudlLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26198FEB60B198B6D32D9320C2AAFF5C /* Pods-HudlLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HudlLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E6A38B44BBA80B730145E4F7D8DCB2A /* Pods-HudlLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HudlLog_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4431F1B29AE27AF9C6B3C5F8238CAFB1 /* HudlLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HudlLog-umbrella.h"; sourceTree = "<group>"; };
+		4A4921328A50A35E3A3DEA38171A96CD /* Pods_HudlLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HudlLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D58C1BB9F85E18E2454884A9864BB75 /* HudlLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HudlLog-prefix.pch"; sourceTree = "<group>"; };
+		4D885798DBDA762B0D9B4E3C5FD7F9D2 /* Pods-HudlLog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HudlLog_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		512E034A7E2A237BD3831A13F0D37130 /* Pods_HudlLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HudlLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5353FA09E56D9EC1E5B050C365B0AF30 /* Pods-HudlLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HudlLog_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6259E038109DE8588548D3077089565A /* Pods-HudlLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HudlLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6F6839520E0034DCDF5027B56EE32A00 /* Pods-HudlLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HudlLog_Example-dummy.m"; sourceTree = "<group>"; };
+		70D58B5E7261B12F165F6E1E51827AB4 /* HudlLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HudlLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B679E57A2F51075B5EC5EB10394AD3 /* Pods-HudlLog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HudlLog_Example-resources.sh"; sourceTree = "<group>"; };
+		79326DEF19BE32C0E6272D33247FD136 /* HudlLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HudlLog.xcconfig; sourceTree = "<group>"; };
+		86500CA5DE238690BB026866F15FC230 /* Pods-HudlLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HudlLog_Tests.modulemap"; sourceTree = "<group>"; };
+		86D0CE1BDDD3F0C22A795A84A377BF4F /* HudlLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HudlLog.swift; sourceTree = "<group>"; };
+		893244070AF2F1EE7AB8090F636D4552 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E27146976DA05752CF7E62EB6254519 /* Pods-HudlLog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HudlLog_Tests-resources.sh"; sourceTree = "<group>"; };
+		A2A520EB581B7105DC10CD349FAEEB30 /* Pods-HudlLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HudlLog_Example.modulemap"; sourceTree = "<group>"; };
+		A91ECF0F7EAEA205783E848984AE4A39 /* Pods-HudlLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HudlLog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B8ADAB393C4B3622DB9FF126583902AC /* Pods-HudlLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HudlLog_Example-umbrella.h"; sourceTree = "<group>"; };
+		B93AC848E4EE7CD7E9CACFCC5F023A6A /* HudlLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HudlLog-dummy.m"; sourceTree = "<group>"; };
+		BA72C9CEBEBE609DE9D68818BC7495B5 /* Pods-HudlLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HudlLog_Tests-dummy.m"; sourceTree = "<group>"; };
+		C53339F5DF1392E2C21A98166801043F /* Pods-HudlLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HudlLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEC48ECCDB04779B89204C9B9EF6633C /* Pods-HudlLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HudlLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D28E1E94FFB9B1FBCC32FE460966F6A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37F9CD9B24DAEA2588D19F97BCEDE48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46B27AB4390184ACDAF51F1A2482B3D /* HudlLogImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HudlLogImpl.swift; sourceTree = "<group>"; };
+		EAE6CC8D90B09EE7BDBE4CB054E07CDA /* Pods-HudlLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HudlLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5303BB4E174371AB49BEEDC4CF99FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6EC0A8D77E0225BA37D3B6FECE9EC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E529B8718D0FB02DD771BC4BAD960A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E02BA305495179EE262D2B01D62563A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F339A2619F72C098063FDCA113E0706B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1200E5A3E18DEFAE54BC7BA806A8DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F5270B15EE0F14C58EF693F35D486D3 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				4367412EEA999445ACA22AADCF2DFD51 /* HudlLog */,
+			);
+			name = Implementation;
+			sourceTree = "<group>";
+		};
+		42718C8E21E6282653B0F61D25FE051C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A252914B73E6D13D7BE06740B6F44142 /* HudlLogImpl */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4367412EEA999445ACA22AADCF2DFD51 /* HudlLog */ = {
+			isa = PBXGroup;
+			children = (
+				42718C8E21E6282653B0F61D25FE051C /* Classes */,
+			);
+			path = HudlLog;
+			sourceTree = "<group>";
+		};
+		5DD2D0F335BD7A29C484C37CAE67ECF0 /* HudlLog */ = {
+			isa = PBXGroup;
+			children = (
+				896197EC8A7A6D3C6378244A1B42F932 /* Classes */,
+			);
+			path = HudlLog;
+			sourceTree = "<group>";
+		};
+		5E80871651C95E8826288D2436F66DE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70D58B5E7261B12F165F6E1E51827AB4 /* HudlLog.framework */,
+				4A4921328A50A35E3A3DEA38171A96CD /* Pods_HudlLog_Example.framework */,
+				512E034A7E2A237BD3831A13F0D37130 /* Pods_HudlLog_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B474CCA745358B57861E987FFB2B2887 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5E80871651C95E8826288D2436F66DE7 /* Products */,
+				952FA6D533E575515CCDCF26D5F83B94 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86FA998095A4D0717AA9EF31580CB57B /* HudlLog */ = {
+			isa = PBXGroup;
+			children = (
+				86D0CE1BDDD3F0C22A795A84A377BF4F /* HudlLog.swift */,
+			);
+			path = HudlLog;
+			sourceTree = "<group>";
+		};
+		896197EC8A7A6D3C6378244A1B42F932 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				86FA998095A4D0717AA9EF31580CB57B /* HudlLog */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		899EF1AB53E1CBE4E8B46FAEB110EFB4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5DD2D0F335BD7A29C484C37CAE67ECF0 /* HudlLog */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		952FA6D533E575515CCDCF26D5F83B94 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD37D5C6662234A6A4765094B006A3FD /* Pods-HudlLog_Example */,
+				DA7448C6DDBE6AF2931A024611D1DA90 /* Pods-HudlLog_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		95BBA4353AA7D05B5157BB359AE4F0CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				081E8CECFC512DAFFD3D4F0DDA08E5E4 /* HudlLog.modulemap */,
+				79326DEF19BE32C0E6272D33247FD136 /* HudlLog.xcconfig */,
+				B93AC848E4EE7CD7E9CACFCC5F023A6A /* HudlLog-dummy.m */,
+				4D58C1BB9F85E18E2454884A9864BB75 /* HudlLog-prefix.pch */,
+				4431F1B29AE27AF9C6B3C5F8238CAFB1 /* HudlLog-umbrella.h */,
+				893244070AF2F1EE7AB8090F636D4552 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HudlLog";
+			sourceTree = "<group>";
+		};
+		A252914B73E6D13D7BE06740B6F44142 /* HudlLogImpl */ = {
+			isa = PBXGroup;
+			children = (
+				E46B27AB4390184ACDAF51F1A2482B3D /* HudlLogImpl.swift */,
+			);
+			path = HudlLogImpl;
+			sourceTree = "<group>";
+		};
+		B474CCA745358B57861E987FFB2B2887 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DBBBADFF8FF5B1A5D1D245FED1ABB /* HudlLog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD37D5C6662234A6A4765094B006A3FD /* Pods-HudlLog_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D28E1E94FFB9B1FBCC32FE460966F6A6 /* Info.plist */,
+				A2A520EB581B7105DC10CD349FAEEB30 /* Pods-HudlLog_Example.modulemap */,
+				1CC7F69C0DE89DAA50C069CE68B0AFC8 /* Pods-HudlLog_Example-acknowledgements.markdown */,
+				13450BF850034DD311D3FDD14C774A3E /* Pods-HudlLog_Example-acknowledgements.plist */,
+				6F6839520E0034DCDF5027B56EE32A00 /* Pods-HudlLog_Example-dummy.m */,
+				A91ECF0F7EAEA205783E848984AE4A39 /* Pods-HudlLog_Example-frameworks.sh */,
+				71B679E57A2F51075B5EC5EB10394AD3 /* Pods-HudlLog_Example-resources.sh */,
+				B8ADAB393C4B3622DB9FF126583902AC /* Pods-HudlLog_Example-umbrella.h */,
+				EAE6CC8D90B09EE7BDBE4CB054E07CDA /* Pods-HudlLog_Example.debug.xcconfig */,
+				5353FA09E56D9EC1E5B050C365B0AF30 /* Pods-HudlLog_Example.release.xcconfig */,
+			);
+			name = "Pods-HudlLog_Example";
+			path = "Target Support Files/Pods-HudlLog_Example";
+			sourceTree = "<group>";
+		};
+		DA6DBBBADFF8FF5B1A5D1D245FED1ABB /* HudlLog */ = {
+			isa = PBXGroup;
+			children = (
+				899EF1AB53E1CBE4E8B46FAEB110EFB4 /* Core */,
+				0F5270B15EE0F14C58EF693F35D486D3 /* Implementation */,
+				95BBA4353AA7D05B5157BB359AE4F0CF /* Support Files */,
+			);
+			name = HudlLog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DA7448C6DDBE6AF2931A024611D1DA90 /* Pods-HudlLog_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D37F9CD9B24DAEA2588D19F97BCEDE48 /* Info.plist */,
+				86500CA5DE238690BB026866F15FC230 /* Pods-HudlLog_Tests.modulemap */,
+				C53339F5DF1392E2C21A98166801043F /* Pods-HudlLog_Tests-acknowledgements.markdown */,
+				CEC48ECCDB04779B89204C9B9EF6633C /* Pods-HudlLog_Tests-acknowledgements.plist */,
+				BA72C9CEBEBE609DE9D68818BC7495B5 /* Pods-HudlLog_Tests-dummy.m */,
+				4D885798DBDA762B0D9B4E3C5FD7F9D2 /* Pods-HudlLog_Tests-frameworks.sh */,
+				9E27146976DA05752CF7E62EB6254519 /* Pods-HudlLog_Tests-resources.sh */,
+				2E6A38B44BBA80B730145E4F7D8DCB2A /* Pods-HudlLog_Tests-umbrella.h */,
+				26198FEB60B198B6D32D9320C2AAFF5C /* Pods-HudlLog_Tests.debug.xcconfig */,
+				6259E038109DE8588548D3077089565A /* Pods-HudlLog_Tests.release.xcconfig */,
+			);
+			name = "Pods-HudlLog_Tests";
+			path = "Target Support Files/Pods-HudlLog_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AD19FA8C30E27CC1DA27630EE1E1CD66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B7B9F862094EA81DE3BCF46298A5F0 /* HudlLog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8898101F9D587FE449C24C654BE7C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A433C53450715D1E6619826FD01FC9A /* Pods-HudlLog_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5C029A84300E1DA53EC06130723F49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81802BDDC924D751FF9D2FD7A1452220 /* Pods-HudlLog_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59A514C4DDF5C3C94DC881DC24678379 /* Pods-HudlLog_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B81B3504A3E9DA89CCD4A8A0E087941 /* Build configuration list for PBXNativeTarget "Pods-HudlLog_Example" */;
+			buildPhases = (
+				85BC182C1FFF224BFD5E7BAEABB99F6A /* Sources */,
+				E529B8718D0FB02DD771BC4BAD960A42 /* Frameworks */,
+				AE8898101F9D587FE449C24C654BE7C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C146EAE8EC06EE63864DFC947F26B5D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-HudlLog_Example";
+			productName = "Pods-HudlLog_Example";
+			productReference = 4A4921328A50A35E3A3DEA38171A96CD /* Pods_HudlLog_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E114F88AC63CC980ED0EE4D6F5C5FF34 /* Pods-HudlLog_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E01D73BBC301B0A7382A0104ECADF199 /* Build configuration list for PBXNativeTarget "Pods-HudlLog_Tests" */;
+			buildPhases = (
+				A71E4368E9E6B11C434FFDC5ED0FA05F /* Sources */,
+				2B5303BB4E174371AB49BEEDC4CF99FD /* Frameworks */,
+				DC5C029A84300E1DA53EC06130723F49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HudlLog_Tests";
+			productName = "Pods-HudlLog_Tests";
+			productReference = 512E034A7E2A237BD3831A13F0D37130 /* Pods_HudlLog_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC375FFBEDB16FEBF2E5542DDC458309 /* HudlLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BBF59410AFF13CA39C6EE2DB276267 /* Build configuration list for PBXNativeTarget "HudlLog" */;
+			buildPhases = (
+				3C60751B342F19AE7467574082A4B51B /* Sources */,
+				F339A2619F72C098063FDCA113E0706B /* Frameworks */,
+				AD19FA8C30E27CC1DA27630EE1E1CD66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HudlLog;
+			productName = HudlLog;
+			productReference = 70D58B5E7261B12F165F6E1E51827AB4 /* HudlLog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5E80871651C95E8826288D2436F66DE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC375FFBEDB16FEBF2E5542DDC458309 /* HudlLog */,
+				59A514C4DDF5C3C94DC881DC24678379 /* Pods-HudlLog_Example */,
+				E114F88AC63CC980ED0EE4D6F5C5FF34 /* Pods-HudlLog_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C60751B342F19AE7467574082A4B51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203F4884329167FBED2A8BFEE23F6535 /* HudlLog-dummy.m in Sources */,
+				305429C9E48B531B2ABCAE8C72B30718 /* HudlLog.swift in Sources */,
+				0D5B1E1B3EB7F467DD088F7865DE3F71 /* HudlLogImpl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85BC182C1FFF224BFD5E7BAEABB99F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B4267DFF5B9969C2E3C2038190DE96 /* Pods-HudlLog_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71E4368E9E6B11C434FFDC5ED0FA05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E173EC94FD55392043C6E0029E26A1 /* Pods-HudlLog_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C146EAE8EC06EE63864DFC947F26B5D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HudlLog;
+			target = EC375FFBEDB16FEBF2E5542DDC458309 /* HudlLog */;
+			targetProxy = FA82C08B4821B24D847ADE36A617CDF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02DCCE06EFE29891A0246A892000A654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5353FA09E56D9EC1E5B050C365B0AF30 /* Pods-HudlLog_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HudlLog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HudlLog_Example/Pods-HudlLog_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HudlLog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B56AD4C27E4D8460C45C399C9BC317B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79326DEF19BE32C0E6272D33247FD136 /* HudlLog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HudlLog/HudlLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HudlLog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HudlLog/HudlLog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HudlLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28C6137CF26CEE15E720C8731B2413CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6259E038109DE8588548D3077089565A /* Pods-HudlLog_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HudlLog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HudlLog_Tests/Pods-HudlLog_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HudlLog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45582031559B1C402E21859001944758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79326DEF19BE32C0E6272D33247FD136 /* HudlLog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HudlLog/HudlLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HudlLog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HudlLog/HudlLog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HudlLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C5AA467E2D78269CFB78411332FB441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26198FEB60B198B6D32D9320C2AAFF5C /* Pods-HudlLog_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HudlLog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HudlLog_Tests/Pods-HudlLog_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HudlLog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F27AEF883E9C355CD90DFB6FA0003CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE6CC8D90B09EE7BDBE4CB054E07CDA /* Pods-HudlLog_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HudlLog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HudlLog_Example/Pods-HudlLog_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HudlLog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B81B3504A3E9DA89CCD4A8A0E087941 /* Build configuration list for PBXNativeTarget "Pods-HudlLog_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27AEF883E9C355CD90DFB6FA0003CBC /* Debug */,
+				02DCCE06EFE29891A0246A892000A654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1BBF59410AFF13CA39C6EE2DB276267 /* Build configuration list for PBXNativeTarget "HudlLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45582031559B1C402E21859001944758 /* Debug */,
+				1B56AD4C27E4D8460C45C399C9BC317B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E01D73BBC301B0A7382A0104ECADF199 /* Build configuration list for PBXNativeTarget "Pods-HudlLog_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5AA467E2D78269CFB78411332FB441 /* Debug */,
+				28C6137CF26CEE15E720C8731B2413CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
